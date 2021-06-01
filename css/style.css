@@ -11,6 +11,8 @@ h1{
     text-align: center;
     font-size: 48px;
     font-family: 'Fredoka One', cursive;
+    position: relative;
+    bottom: 30px;
 }
 
 body{
@@ -21,4 +23,18 @@ background-image: url(https://westeurope1-mediap.svc.ms/transform/thumbnail?prov
 #submitbutton{
     background-color: red;
     color: white;
+}
+
+form{
+    background-color: rgba(255, 229, 72, 255);
+    display: inline-block;
+}
+
+#logo1{
+
+    position: relative;
+    top: 30px;
+}
+.one1{
+    color:red
 }

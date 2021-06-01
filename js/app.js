@@ -7,11 +7,14 @@ let tr1 = document.createElement('tr')
 table.appendChild(tr1)
 let th1 = document.createElement('th')
 tr1.appendChild(th1)
-th1.textContent = '  orderimage'
 
 let th2 = document.createElement('th')
 tr1.appendChild(th2);
-th2.textContent = '  order details'
+ let par1 = `customer name: ${customerName}
+food type: ${foodtype}
+food price : ${this.randomNumber1}`
+
+th2.textContent = par1
 // let par1 = document.createElement('p');
 // th2.appendChild(par1);
 
@@ -42,6 +45,7 @@ food.push(this);
   let foodArray = [burger,pizza,shawarma];
 
 let imagePath = ['img/burger.jpg','img/pizza.jpg','img/shawarma.jpg'];
+th1.textContent = imagePath;
 
 
 function generateImg(){
